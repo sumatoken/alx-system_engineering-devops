@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name \*.js -printf "%f\n" | while read line; do echo ${line::-3}; done
+find . -type f -name \*.gif -printf "%f\n" | while read line; do echo ${line::-3}; done
